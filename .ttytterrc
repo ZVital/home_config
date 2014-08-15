@@ -1,0 +1,16 @@
+#show replies in timeline
+mentions=1
+#Check version on start up
+vcheck=0
+#\r and \n create a new line
+newline=1
+#answer y or Y to post your tweet
+verify=1
+ssl=1
+ansi=1
+synch=0
+notifytype=libnotify
+notifies=dm,me,reply,search,default
+urlopen=google-chrome-stable %U
+timestamp=%d.%m.%Y %H:%M:%S
+readline=Term::ReadLine::TTYtter

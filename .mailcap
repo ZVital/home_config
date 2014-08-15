@@ -1,0 +1,6 @@
+application/msword; antiword '%s'; copiousoutput; description=Word Document; nametemplate=%s.doc
+application/pdf; pdftotext '%s' -; copiousoutput; description=PDF Document; nametemplate=%s.pdf
+text/html; w3m -I %{charset} -dump %s; nametemplate=%s.html; copiousoutput
+text/html; lynx -force_html %s; needsterminal
+text/calendar; /home/zvital/Dropbox/scripts/vcalendar-filter.pl; copiousoutput
+image/png; gqview %s

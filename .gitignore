@@ -1,0 +1,13 @@
+*
+!.gitignore
+!.bashrc
+!.config/
+!.config/mc/
+!.config/mc/ini
+!.i3/
+!.i3/config
+!.i3status.conf
+!.mailcap
+!.tmux.conf
+!.ttytterrc
+!.xinitrc
