@@ -118,7 +118,7 @@ export CYAN='\[\033[36m\]'
 export COLOR='\[\033[32m\]'
 export NORMAL='\[\033[0m\]'
 #export PS1="$NORMAL=($COLOR\u@\h$NORMAL)=($COLOR\w$NORMAL)=($COLOR\t$NORMAL)=($COLOR"'`get_freemem`'"$NORMAL)=($COLOR\j:\$?$NORMAL)=$COLOR\$$NORMAL>$COLOR"
-export PS1="$NORMAL.-($COLOR\u@\h$NORMAL):($COLOR\w$NORMAL):($COLOR"'`get_freemem`'"$NORMAL)-\n'-($COLOR\j:\$?$NORMAL):$COLOR\$$NORMAL>"
+export PS1="$NORMAL.-($COLOR\u$CYAN@\h$NORMAL):($COLOR\w$NORMAL):($COLOR"'`get_freemem`'"$NORMAL)-\n'-($COLOR\j:\$?$NORMAL):$COLOR\$$NORMAL>"
 #-----------END-----------
 #bashcomp
-source /etc/profile.d/bash-completion.sh
+#source /etc/profile.d/bash-completion.sh
